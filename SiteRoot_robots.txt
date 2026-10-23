@@ -1,0 +1,11 @@
+# MetcalfSolutions.github.io root robots.txt
+# Commit this file as robots.txt at the root of the MetcalfSolutions.github.io
+# user-site repo. Crawlers only read robots.txt at the origin root, so this is
+# the file that governs the whole host, including /Satori/. The Sitemap lines
+# below are how crawlers discover both sitemaps without a Search Console submit.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://metcalfsolutions.github.io/sitemap.xml
+Sitemap: https://metcalfsolutions.github.io/Satori/sitemap.xml
